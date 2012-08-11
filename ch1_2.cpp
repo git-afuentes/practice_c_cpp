@@ -11,7 +11,8 @@ void reverse(char *cstr)
 {
 	int i = 0;
 	string str = cstr;
-	char *str_reverse = new char[str.size()+1];
+	//char *str_reverse = new char[str.size()+1];
+	char *str_reverse;
 	char *last;
 
 	last = cstr + str.length()-1;
